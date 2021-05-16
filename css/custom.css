@@ -1,0 +1,223 @@
+/* your styles go here */
+.index-grid-four{
+    display: flex;
+    width: 490px;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgba(239, 240, 239, 100);
+    padding: 25px 15px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+
+}
+.index-grid-four .text-small{
+    font-size: 13px;
+}
+.index-grid-four .four-item-left{
+    flex: 0 0 108px;
+}
+.index-grid-four .four-item-right{
+    flex: 1 1 auto;
+    padding-left: 30px;
+}
+.index-tips{
+    width: 797px;
+    border-radius: 5px;
+    border: 2px solid rgba(211, 216, 221, 100);
+    padding: 40px 50px;
+    margin: 40px auto 60px ;
+    background-color: white;
+    overflow: hidden;
+}
+.index-tips .right{
+    float: right;
+    margin-top: 30px;
+}
+.product-banner{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: left;
+    color: white;
+}
+.product-banner .banner-left{
+    flex: 1 1 auto;
+}
+.product-banner .banner-left .title{
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.product-banner .banner-left .desc-p{
+    font-size: 14px;
+    width: 660px;
+}
+
+.product-banner .banner-right{
+    flex: 0 0 360px;
+}
+
+.product-title{
+    color: rgba(63, 98, 102, 100);
+    font-size: 40px;
+    text-align: center;
+    font-family: SourceHanSansSC-regular;
+    font-weight: bold;
+}
+.product-desc{
+    color: rgba(122, 122, 122, 100);
+    font-size: 14px;
+    font-family: SourceHanSansSC-regular;
+    text-align: center;
+}
+.product-grid{
+    display: flex;
+    justify-content: space-around;
+}
+.product-grid .gird-item{
+    flex: 0 0 380px;
+    text-align: center;
+    margin-top: 70px;
+}
+.product-grid .gird-item .title{
+    color: #101010;
+    font-size: 18px;
+    font-weight: bold;
+}
+.product-grid .gird-item .desc{
+    color: rgba(16, 16, 16, 100);
+    font-size: 14px;
+    margin: 25px 0 30px;
+}
+.product-grid .gird-item .img-block{
+    width: 300px;
+    height: 316px;
+    border-radius: 5px;
+    border: 1px solid rgba(211, 216, 221, 100);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-grid .gird-item .button{
+    width: 144px;
+    border-radius: 5px;
+    color: rgba(46, 83, 228, 100);
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(149, 149, 149, 50);
+    color: #000;
+    margin: 35px auto 0;
+    cursor: pointer;
+}
+.case-banner{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.case-banner .banner-left{
+    flex: 1 1 auto;
+    padding-right: 200px;
+}
+.case-banner .title{
+    color: rgba(255, 255, 255, 100);
+    font-size: 36px;
+    text-align: center;
+}
+.case-banner .desc{
+    color: rgba(254, 255, 254, 100);
+    font-size: 14px;
+    text-align: center;
+    margin: 24px 0;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-banner{
+    line-height: 20px;
+    border-radius: 2px;
+    background-color: rgba(5, 184, 106, 100);
+    color: rgba(255, 255, 255, 100);
+    font-size: 14px;
+    text-align: center;
+    padding: 7px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    user-select: none;
+}
+.case-banner .button-banner.plain{
+    background-color: rgba(255, 255, 255, 100);
+    color: rgba(5, 184, 106, 100);
+}
+.case-banner .banner-right{
+    flex: 0 0 460px;
+}
+
+.case-content .title{
+    color: rgba(63, 98, 102, 100);
+    font-size: 36px;
+    text-align: center;
+}
+
+.case-gird{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+.case-gird .gird-text{
+    flex: 1 1 auto;
+    text-align: left;
+}
+.case-gird .gird-text .title{
+    text-align: left;
+    color: rgba(63, 98, 102, 100);
+    font-size: 36px;
+    font-weight: bold;
+}
+.case-gird .gird-text .desc{
+    color: rgba(122, 122, 122, 100);
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.case-gird .gird-text .list{
+    color: rgba(2, 2, 2, 100);
+    font-size: 18px;
+}
+.case-gird .gird-img{
+    flex: 0 0 50%;
+    text-align: center;
+}
+
+.dis-table{
+    display: table;
+    width: 100%;
+}
+.dis-row{
+    display: table-row;
+}
+
+.dis-cell{
+    display: table-cell;
+    text-align: center;
+}
+.case-table .dis-row:nth-child(2n+1){
+    background:#F0F0F0;
+}
+.case-table .dis-row .dis-cell:nth-child(1){
+    text-align: left;
+}
+.case-table .dis-row{
+    font-size: 18px;
+}
+.case-table .dis-cell{
+    width: 33.33%; 
+    padding: 3px;
+}
+.case-table .storng{
+    font-weight: bold;
+}
