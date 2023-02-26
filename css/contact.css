@@ -1,0 +1,110 @@
+.first-block {
+    position: relative;
+    margin-top: 72px;
+}
+
+.first-block img{
+    width: 100%;
+    min-height: 674px;
+}
+.first-block .first-plane{
+    position: absolute;
+    top:  0px;
+    width: 1128px;
+    height: 100%;
+    margin: 0 calc((100vw - 1128px) /2);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding: 190px;
+}
+.first-block .first-plane .title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.first-block .first-plane .desc{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.contact-form{
+    height: 268px;
+    background-color: #FAFAFC;
+    position: relative;
+}
+.contact-form .contact-card{
+    width: 1128px;
+    height: 415px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    position: absolute;
+    top: -243px;
+    margin: 0 calc((100vw - 1128px) /2);
+    display: flex;
+    padding: 88px 100px;
+    justify-content: space-between;
+}
+
+.contact-form .contact-card .left{
+    width: 263px;
+    height: 200px;
+}
+.contact-form .contact-card .right{
+    width: 552px;
+    height: 239px;
+}
+.contact-form .contact-card .layout{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.contact-form .layout .layout-left,.contact-form .layout .layout-right {
+    width: 264px;
+
+}
+.contact-form .contact-card .right .label {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1EBF6C;
+    margin-bottom: 8px;
+}
+.contact-form .contact-card .right .label::before {
+    content: '*';
+    display: inline-block;
+    color: #D4380D;
+}
+
+.contact-form .contact-card .right .contect-submit {
+    width: 310px;
+    border-radius: 16px;
+    padding: 8px 16px;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 40px;
+}
+.contact-card .left .title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #969696;
+    margin-bottom: 6px;
+}
+.contact-card .left .detail{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #323232;
+    margin-bottom: 16px;
+}
+

@@ -247,6 +247,10 @@
     flex: 0 0 761px;
     height: 171px;
 }
+.demos .line2 .right img{
+    width: 761px;
+    height: 171px;
+}
 
 .line2 .left .number{
     font-style: normal;
@@ -307,3 +311,4 @@
 .detail2 .left .content p{
     margin-bottom: 30px;
 }
+
