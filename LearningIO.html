@@ -13,17 +13,16 @@
   <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/global.css">
-  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/LearningIO.css">
 
 </head>
 
 <body>
   <!-- navbar-->
-  <header class="header dis_flex" >
+  <header class="header dis_flex  ">
     <div class="logo">
       <a href="index.html" class=""><img src="img/logo.png" class="img-fluid"></a>
     </div>
-
     <nav class="navbar navbar-expand">
       <div id="navbarSupportedContent" class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
@@ -53,151 +52,131 @@
       </div>
       </div>
     </nav>
-
     <div class="options">
       <a href="https://www.learningio.cn" class="btn">登录</a>
       <div onclick="showModal()" class="btn btn-primary ">申请体验</div >
     </div>
   </header>
-
-  <div class="first-block">
-    <div class="bg-img">
-      <img src="img/index-header.png" />
-    </div>
-    <div class="first-text">
-      <div class="first-title">
-        用数据说话 做有效培训
-      </div>
-      <div class="first-desc">
-        职鼎从业务场景出发，让能力测量和学习发展数据成为驱动业务增长的力量
-      </div>
-      <div class="first-btns">
-        <div onclick="showModal()" class="btn btn-primary ">申请体验</div >
-      </div>
-    </div>
-  </div>
-  <div class="products">
-    <div class="title">
-      产品简介
-    </div>
-    <div class="desc">
-      通过精准测量和学习分析，为人才发展提供科学依据
-    </div>
-    <div class="product-list">
-      <div class="product-item">
-        <div class="left" style="padding-left: 0;padding-right: 0;text-align: left;">
-          <img src="img/products1.png" />
-        </div>
-        <div class="right">
-          <div class="color-title">MUAS® ️ 情境化能力测量</div>
-          <div class="blod-title">几步之内，精准测量能力水平</div>
-          <div class="content">
-            MUAS®️情境化能力测量和SAT/GRE一样，是一种准确通用的测量方式。测量内容从业务场景出发结合认知科学，经过数据质检后，投入测量实施，确保结果的准确稳定。更有专利算法，几步之内轻松获得结果报告。
-          </div>
-          <div class="btns">
-            <a href="MUSA.html" class="btn btn-primary ">去看看 >></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="product-item">
-        <div class="left">
-          <div class="color-title">LearningIO® 智慧学习</div>
-          <div class="blod-title">因才施教 千人千面</div>
-          <div class="content">
-            依据不同人员的能力水平，自适应推荐适合人员自身的学习资源和能力提升路径，实现因才而异的个性化学习，提升学习效果。缩短组织人才培养时间，从而达到降本增效的目标。
-          </div>
-          <div class="btns">
-            <a href="LearningIO.html" class="btn btn-primary ">去看看 >></a>
-          </div>
-        </div>
-        <div class="right" style="padding-left: 0;padding-right: 0;text-align: right;">
-          <img src="img/products2.png" />
-        </div>
-      </div>
-
-      <div class="product-item">
-        <div class="left" style="padding-left: 0;padding-right: 0;text-align: left;">
-          <img src="img/products3.png" />
-        </div>
-        <div class="right">
-          <div class="color-title">VISight®️ 能力加速器看板️ </div>
-          <div class="blod-title">看准人 找对人 用数据决策</div>
-          <div class="content">
-            集成人员能力测量，学习行为和业务结果等多维度数据，进行数据间链接，探索与挖掘，为组织人才投资决策提供全面的数据支持，提升人才投资精准度。
-          </div>
-          <div class="btns">
-            <a href="VISight.html" class="btn btn-primary ">去看看 >></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="statistic">
-    <div class="title">
-      职鼎创造了一种智能化敏捷方式，带来了精准的人才画像和个性化发展路径
-    </div>
-    <div class="desc">
-      用数据实证，让我们的伙伴看到
-    </div>
-    <div class="number-cards">
-      <div class="card-item">
-        <div class="number">
-          4X
-        </div>
-        <div class="name">人员画像分辨率</div>
-      </div>
-      <div class="card-item">
-        <div class="number">
-          50<span class="small">%</span>
-        </div>
-        <div class="name">学习效能提升率</div>
-      </div>
-      <div class="card-item">
-        <div class="number">
-          100<span class="small">%</span>
-        </div>
-        <div class="name">人才投资精准</div>
-      </div>
-    </div>
-  </div>
-  <div class="logos">
-    <div class="title">我们的合作品牌</div>
-    <div class="pic">
-      <img src="img/logos.png" />
-    </div>
-  </div>
-  <div class="contect-us">
-    <img src="img/contect-us.png" alt="">
-    <div class="input-plane">
-      <div class="title">
-        联系我们
-      </div>
+  <div class="first-header">
+    <img src="img/musa-header.png"/>    
+    <div class="content">
+      <div class="title">LearningIO®️ 智慧学习</div>
       <div class="desc">
-        立刻联系销售人员，如果您需要一份产品报价，或者想了解更多的产品详情页，请留下您的联系方式。我们的销售团队将在第一时间与您联系。
+        依据不同学员的能力水平，实现因人而异的个性化学习，提升学习效果，为组织降本增效
       </div>
-      <div class="input-item">
-        <div class="label">姓名</div>
-        <div class="input">
-          <input id="name" type="text" class="form-control" placeholder="e.g.John Smith"
-            aria-describedby="sizing-addon1">
-        </div>
+    </div>
+
+  </div>
+  <div class="title-box">
+    <img src="img/title_box.png"/>    
+    <div class="text">
+      <div class="title">你知道吗？50%的学员不用从头学起</div>
+      <div class="contnet">
+        基于能力测量的数据输入，LearningIO®️为每一个能力发展项提供了个性化的学习策略，匹配每一位学员最适合的能力成长路径。
       </div>
-      <div class="input-item">
-        <div class="label">公司</div>
-        <div class="input">
-          <input id="company" type="text" class="form-control" placeholder="请输入公司名称" aria-describedby="sizing-addon1">
-        </div>
-      </div>
-      <div class="input-item">
-        <div class="label">联系电话</div>
-        <div class="input">
-          <input id="phone" type="text" class="form-control" placeholder="请输入您的联系电话" aria-describedby="sizing-addon1">
-        </div>
-      </div>
-      <div onclick="handleContact()" class="contect-submit btn btn-primary ">提交</div>
     </div>
   </div>
+  
+  
+  <div class="description">
+    <div class="right">
+      <div class="logo">
+        <img src="img/Exclude.png"/>
+      </div>
+      <div class="title">对 “一刀切”说不</div>
+      <div class="desc">LearningIO®️为拥有不同经验、知识和能力的人员，提供个性化的学习路径</div>
+      <div class="desc">提高学习效率的同时降低运营成本</div>
+    </div>
+    <div class="list">
+      <div class="item">
+        <div class="left has-img">
+          <img class="tip-img" src="img/ns-1-tip.png" alt="">
+          <img class="show-img" src="img/ns-1-image.png" alt="">
+        </div>
+        <div class="right">
+          <div class="float">
+            <div class="title">全层级全链路能力提升方案</div>
+            <div class="content">与学员的能力水平结合，精准匹配人员能力短板，扫清盲点定向爆破，大幅度提升学习的效果，快速磨练技能，达到精湛程度；同时向管理者提供实时精细化学习数据洞见。</div>
+          </div>
+          <img onclick="location.href = '/LearningIO.html#contact-us'" style="position: absolute;bottom: 16px;right: 0;" src="img/contact-btn.png" alt="">
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="left">
+          <div class="float" style="z-index: 2;">
+            <div class="title">每日一考强化记忆方案</div>
+            <div class="content">灵感来自艾宾浩斯遗忘曲线，将大目标拆成小目标，每日练习熟能生巧，可全面覆盖，养成习惯。同时提升管理效率，通过强化记忆，提升学习效果。</div>
+          </div>
+          <img onclick="location.href = '/LearningIO.html#contact-us'" style="position: absolute;bottom: 16px;left: 0;" src="img/contact-btn.png" alt="">
+
+        </div>
+        <div class="right has-img">
+          <img class="tip-img" src="img/ns-2-tip.png" alt="">
+          <img class="show-img" src="img/ns-2-image.png" alt="">
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="left has-img">
+          <img class="tip-img" src="img/ns-3-tip.png" alt="">
+          <img class="show-img" src="img/ns-3-image.png" alt="">
+        </div>
+        <div class="right">
+          <div class="float">
+            <div class="title">“你会怎么做？”场景化案例学习</div>
+            <div class="content">技能可以一个个培养，但使用时是在场景中综合运用的。场景化案例学习方案使用学员真实案例，通过数据对比，强化技巧，察觉误区，处理实际挑战场景，逐层解决问题。</div>
+          </div>
+          <img onclick="location.href = '/LearningIO.html#contact-us'" style="position: absolute;bottom: 16px;left: 0;" src="img/contact-btn.png" alt="">
+          
+        </div>
+      </div>
+    </div>
+  </div> 
+  <div class="contact-us" id="contact-us">
+    <img src="img/contect-us2.png" alt="">
+    <div class="plane layout">
+      <div class="left" style="padding: 120px  150px;">
+        <div class="title">
+          联系我们
+        </div>
+        <div class="desc">
+          立刻联系销售人员，如果您需要一份产品报价，或者想了解更多的产品详情页，请留下您的联系方式。我们的销售团队将在第一时间与您联系。
+        </div>
+      </div>
+      <div class="right"  style="padding: 90px  40px;justify-content: center;">
+        <div class="layout" style="margin-bottom: 23px;">
+          <div class="left"  style="padding-left: 0;">
+            <div class="input-item">
+              <div class="label">姓名</div>
+              <div class="input">
+                <input id="name" type="text" class="form-control" placeholder="e.g.John Smith"
+                  aria-describedby="sizing-addon1">
+              </div>
+            </div>
+          </div>
+          <div class="right"  style="padding-right: 0;">
+            <div class="input-item">
+              <div class="label">公司</div>
+              <div class="input">
+                <input id="company" type="text" class="form-control" placeholder="请输入公司名称" aria-describedby="sizing-addon1">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="input-item">
+          <div class="label">联系电话</div>
+          <div class="input">
+            <input id="phone" type="text" class="form-control" placeholder="请输入您的联系电话" aria-describedby="sizing-addon1">
+          </div>
+        </div>
+        <div class="" style="text-align: center;">
+          <div onclick="handleContact()" class="contect-submit btn btn-primary">提交</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="footer">
     <div class="footer-item">
       <div class="white-logo">
@@ -241,6 +220,7 @@
   <div class="end-info">
     ©️版权所有 2018®️上海职鼎网络科技有限公司 沪ICP备 17017719号
   </div>
+
   <div  class="details-modal-overlay hidden" id="apply-modal">
     <div class="details-modal">
       <div class="details-modal-content">
@@ -273,11 +253,10 @@
     </div>
 
   </div>
-  
 
   <!-- JavaScript files-->
   <script src="js/jquery.min.js"></script>
-  <script src=" vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="js/front.js"></script>
 
 </body>

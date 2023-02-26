@@ -1,0 +1,82 @@
+.first-block {
+    position: relative;
+    margin-top: 72px;
+}
+
+.first-block img{
+    width: 100%;
+}
+.first-block .first-plane{
+    position: absolute;
+    left: 156px;
+    bottom: 0px;
+    width: 648px;
+    height: 268px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 56px 48px;
+}
+.first-block .first-plane .title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #1EBF6C;
+    margin-bottom: 16px;
+}
+.first-block .first-plane .desc{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.v-info{
+    width: 1128px;
+    margin: 0 auto;
+    padding-top: 140px;
+    margin-bottom: 16px;
+}
+.v-info .out-test{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #323232;
+}
+.v-info .out-desc{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #969696;
+    margin-bottom: 64px;
+}
+.v-info .layout{
+    display: flex;
+    flex-wrap: wrap;
+}
+.v-info .layout .layout-item{
+    flex: 0 0 50%;
+    overflow: hidden;
+}
+.v-info .layout .layout-item.text{
+    padding: 71px 81px;
+}
+.v-info .layout-item .tag{
+    width: 120px;
+    height: 40px;
+    background: #F3FFF9;
+    border-radius: 8px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1EBF6C;
+    margin-bottom: 40px;
+}
+.v-info .layout-item .l-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #323232;
+    margin-bottom: 24px;
+}

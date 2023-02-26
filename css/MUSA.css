@@ -1,0 +1,152 @@
+.first-header{
+    position: relative;
+    text-align: right;
+
+}
+.first-header img{
+    display: inline-block;
+    /* position: absolute; */
+    right: 0;
+}
+.first-header .content{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    width: 552px;
+    text-align: left;
+}
+
+.first-header .title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #1EBF6C;
+}
+.first-header .desc{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #5B5B5B;
+}
+
+.muas-desc{
+    background-color: #F7F7F7;
+}
+.muas-desc .rlogo{
+    width: 170px;
+    height: 66px;
+    background: #1EBF6C;
+    border-radius: 0px 0px 12px 12px;
+    font-size: 24px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.muas-desc .title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #323232;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 48px;
+}
+.muas-desc .list{
+    display: flex;
+    justify-content: space-between;
+}
+.muas-desc .item{
+    border-left: 1px solid #D8D8D8;
+    flex: 0 0 263px;
+    padding-top: 62px;
+}
+.muas-desc .item .icons{
+    border-left:  4px solid #1EBF6C;
+    padding-left: 32px;
+}
+.muas-desc .item .item-title{
+    padding-left: 32px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #323232;
+    height: 80px;
+    margin-bottom: 24px;
+}
+.muas-desc .item .item-content{
+    padding-left: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5B5B5B;
+}
+.muas-desc2{
+    width: 1128px;
+    margin: 0 auto 140px;
+
+}
+.muas-desc2 .title{
+    margin-top: 140px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    
+    color: #323232;
+}
+.muas-desc2 .desc{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #5B5B5B;
+    margin-bottom: 72px;
+}
+.muas-desc2 .layout{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+.muas-desc2 .layout .layout-item{
+    flex: 0 0 ;
+    position: relative;
+}
+.card-content{
+    position: absolute;
+    z-index: 2;
+    top: 80px;
+    left: 32px;
+
+    padding-right: 32px;
+
+}
+.card-content .card-title{
+    height: 80px;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #323232;
+}
+.card-content .card-desc{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5B5B5B;
+}
+.right-tips{
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #969696;
+}

@@ -1,0 +1,222 @@
+
+
+.first-block {
+    position: relative;
+    margin-top: 72px;
+}
+
+.first-block .bg-img img {
+    /* position: absolute; */
+    width: 100%;
+}
+
+.first-block .first-text {
+    position: absolute;
+    z-index: 2;
+    top: 45%;
+    left: 10%;
+    color: white;
+}
+
+.first-block .first-text .first-title {
+    font-weight: 700;
+    font-size: 3.5vw;
+    margin-bottom: 15px;
+    line-height: 3.7vw;
+    color: #FFFFFF;
+}
+.first-block .first-text .first-desc {
+    font-size: 1vw;
+    line-height: 2.2vw;
+    color: #FFFFFF;
+}
+.first-block .first-text .first-btns{
+    margin-top: 2vw;
+}
+.first-block .first-text .first-btns a{
+    font-size: 1vw;
+    padding: 6px 20px;
+    border-radius: 40px;
+}
+.products{
+    padding-top: 140px;
+}
+.products .title{
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+}
+.products .desc{
+    margin-top: 24px;
+    margin-bottom: 95px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+}
+.product-list{
+    width: 80%;
+    margin: 0 auto;
+}
+.product-list .product-item{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+.product-item .left,.product-item .right{
+    flex: 0 0 50%;
+    padding: 40px 32px;
+    box-sizing: border-box;
+}
+.product-list .color-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #7ED5A8;
+}
+.product-list .blod-title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #323232;
+    margin-bottom: 32px;
+}
+.product-list .content{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #5B5B5B;
+    margin-bottom: 40px;
+}
+.product-list .btns a{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 8px 24px;
+    border-radius: 50px;
+}
+.statistic{
+    background-color: #F7F7F7;
+    padding: 140px 10%; 
+    margin: 0 auto;
+}
+.statistic .title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 56px;
+    text-align: center;
+}
+.statistic .desc{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #5B5B5B;
+    margin-bottom: 32px;
+}
+.statistic .number-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.statistic .card-item{
+    padding: 40px 80px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    text-align: center;
+}
+.statistic .number{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 60px;
+    color: #1EBF6C;
+}
+.statistic .small{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #1EBF6C;
+}
+.statistic .name{
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #1EBF6C;
+}
+.logos{
+    padding: 140px 10%; 
+    margin: 0 auto;
+}
+.logos .title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #323232;
+    margin-bottom: 56px;
+}
+.logos .pic img{
+    width: 100%;
+}
+.contect-us{
+    position: relative;
+}
+.contect-us img{
+    width: 100%;
+}
+.contect-us .input-plane{
+    position: relative;
+}
+.contect-us .input-plane{
+    position: absolute;
+    top: 128px;
+    right: 10%;
+    width: 490px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24, 39, 75, 0.1);
+    border-radius: 24px;
+    padding: 56px 40px;
+}
+.contect-us .input-plane .title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #404040;
+    margin-bottom: 24px;
+}
+.contect-us .input-plane .desc{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #969696;
+    margin-bottom: 24px;
+}
+.contect-us .input-item{
+    margin-bottom: 16px;
+} 
+.contect-us .input-item .label{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5B5B5B;
+    margin-bottom: 8px;
+} 
+.contect-us .input-item .label::before{
+    content: '*';
+    display: inline-block;
+    color: #D4380D;
+}
+.contect-us .contect-submit{
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+    border-radius: 16px;
+    padding: 16px;
+    font-size: 20px;
+    line-height: 24px;
+    
+}

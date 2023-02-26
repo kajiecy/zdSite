@@ -1,0 +1,156 @@
+.page-body{
+    position: fixed;
+    top: 0;
+}
+.first-header{
+    margin-top:-72px;
+    position: relative;
+}
+.first-header img{
+    width: 100%;
+}
+.first-header .content{
+    position: absolute;
+    z-index: 2;
+    left: 42vw;
+    top: 14vw;
+}
+.first-header .content .title{
+    font-weight: 700;
+    font-size: 3vw;
+    /* font-size: 48px; */
+    line-height: 60px;
+    color: #1EBF6C;
+    margin-bottom: 16px;
+}
+.first-header .content .desc{
+    font-weight: 400;
+    font-size: 1.5vw;
+    /* font-size: 24px; */
+    line-height: 3vw;
+    color: #5B5B5B;
+    width: 34vw;
+}
+.title-box{
+    width: 804px;
+    height: 316px;
+    margin-top: -158px;
+    position: relative;
+    padding: 64px 96px 64px 156px ;
+}
+.title-box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 804px;
+    height: 316px;
+}
+.title-box .text{
+    position: relative;
+    z-index: 4;
+}
+.title-box .text .title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.title-box .text .contnet{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.description{
+    width: 1280px;
+    margin: 0 auto;
+}
+.description .right{
+    text-align: right;
+    margin-bottom: 20px;
+}
+.description .right .title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: right;
+    color: #323232;
+    margin-bottom: 15px;
+}
+.description .right .desc{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #5B5B5B;
+}
+.description .list .item{
+    position: relative;
+    display: flex;
+}
+.description .list .item {
+    position: relative;
+    display: flex;
+    margin-bottom: 88px;
+}
+.description .list .tip-img{
+    position: absolute;    
+    top: -45px;
+}
+.description .list .right,.description .list .left{
+    flex: 1 1 40%;
+}
+.description .list .has-img{
+    flex: 0 0 694px;
+}
+
+.description .list .has-img .show-img{
+    width: 694px;
+}
+
+
+.description .list .right .tip-img{
+    position: absolute;    
+    top: -45px;
+    right: 0;
+}
+.description .float{
+    position: absolute;
+    width: 625px;
+    background-color: #F7F7F7;
+    padding: 48px 72px;
+    top: 14%;
+}
+.description .right,.description .left{
+    position: relative;
+    margin-bottom: 0;
+}
+.description .right .float{
+    right: 0;
+
+    text-align: left;
+}
+.description .right .float .title{
+    text-align: left;
+}
+.description .float .title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #323232;
+    margin-bottom: 16px;
+}
+
+.description .float .content{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #5B5B5B;
+    text-align: left;
+}
+
+
+
+
+
