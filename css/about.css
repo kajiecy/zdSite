@@ -1,0 +1,309 @@
+.first-block {
+    position: relative;
+    margin-top: 72px;
+    margin-bottom: 140px;
+}
+
+.first-block img{
+    width: 100%;
+}
+.first-block .first-plane{
+    position: absolute;
+    top:  0px;
+    width: 1128px;
+    height: 100%;
+    margin: 0 calc((100vw - 1128px) /2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.first-block .first-plane .title{
+    color: white;
+    font-family: 'Source Han Sans CN';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+.first-block .first-plane .desc{
+    color: white;
+    font-family: 'Source Han Sans CN';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;color: #FFFFFF;
+}
+.phone-block{
+    position: absolute;
+    width: 350px;
+    height: 172px;
+    right: calc((100vw - 1128px) /2);
+    bottom: -48px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 25px rgba(0, 33, 91, 0.175863);
+    border-radius: 12px;  
+    padding: 40px 48px 48px;
+    overflow: hidden;
+    
+}
+.phone-block .tiao{
+    height: 8px;
+    background-color: #1EBF6C;
+    width: 350px;
+    position: relative;
+    top: -40px;
+    left: -48px;
+}
+.phone-block .title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #5B5B5B;
+    flex: none;
+    margin-bottom: 6px;
+}
+.phone-block .phone-number{
+    font-family: 'Source Han Sans CN';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #323232;
+}
+
+.c-detail{
+   display: flex; 
+   width: 1128px;
+   justify-content: space-between;
+   margin: 0 auto;
+   padding-bottom: 140px;
+}
+.c-detail .left{
+    flex: 0 0 456px;
+    position: relative;
+}
+.c-detail .left .detail{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.c-detail .left .years{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.c-detail .left .logo{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+
+.c-detail .right{
+    flex: 0 0 551px;
+    
+}
+.c-detail .right .title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #16213E;
+    margin-bottom: 16px;
+}
+.c-detail .right .bar{
+    width: 140px;
+    height: 8px;
+    background: #1EBF6C;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+.c-detail .right .content{
+    font-family: 'Source Han Sans CN';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #5B5B5B;
+}
+.c-detail .right .content p{
+    margin-bottom: 30px;
+}
+.banner2{
+    position: relative;
+}
+.banner2 img{
+    width: 100%;
+    min-height: 444px;
+}
+.banner2 .text{
+    position: absolute;
+    top: 10vw;
+    text-align: center;
+    width: 100%;
+}
+.banner2 .text .title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.banner2 .text .en{
+    font-family: 'Source Han Sans CN';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.demos-out{
+    background-color: #FAFAFC;
+    position: relative;
+    height: 480px;
+}
+.demos{
+    width: 936px;margin: 0 auto;
+    position: absolute;
+    top: -140px;
+    left: calc((100vw - 936px) / 2);
+}
+.demos .line1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.line1 .left ,.line1 .right{
+    background-color: white;
+    width: 456px;height: 201px;
+    display: flex;
+    padding: 24px 48px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 25px rgba(0, 33, 91, 0.103639);
+    border-radius: 12px;
+}
+.line1 .left .left-left,.line1 .right .right-left{
+    width: 96px;
+    height: 100px;
+    text-align: center;
+}
+.line1 .left .left-left .number,.line1 .right .right-left .number{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 60px;
+    color: #1EBF6C;
+    margin-bottom: 16px;
+    height: 60px;
+}
+.line1 .left .left-left .title,.line1 .right .right-left .title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1EBF6C;
+}
+.line1 .right .right-left{
+    width: 118px;
+    height: 100px;
+    text-align: center;
+}
+.line1 .right .right-left .number{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    color: #1EBF6C;
+}
+.line1 .right .right-left span{
+    font-size: 32px;
+}
+
+
+.demos .line2{
+    display: flex;
+    padding: 36px;
+    justify-content: space-between;
+    width: 936px;
+
+    background-color: white;
+    box-shadow: 0px 2px 25px rgba(0, 33, 91, 0.103639);
+    border-radius: 12px;
+    align-items: center;
+
+}
+.demos .line2 .left{
+    flex: 0 0 90px;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.demos .line2 .right{
+    flex: 0 0 761px;
+    height: 171px;
+}
+
+.line2 .left .number{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 48px;
+    color: #1EBF6C;
+    height: 48px;
+    margin-bottom: 16px;
+}
+.line2 .left span{
+    font-size: 32px;
+}
+.line2 .left .title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1EBF6C;
+}
+
+
+.detail2{
+    width: 1128px;
+    margin: 0px auto;
+    padding: 140px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.detail2 .left{
+    width: 549px;
+    height: 472px;
+}
+
+.detail2 .left .title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #16213E;
+    margin-bottom: 16px;
+}
+.detail2 .left .bar{
+    width: 140px;
+    height: 8px;
+    background: #1EBF6C;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+.detail2 .left .content{
+    font-family: 'Source Han Sans CN';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #5B5B5B;
+}
+.detail2 .left .content p{
+    margin-bottom: 30px;
+}

@@ -140,10 +140,13 @@
 
 .contact-us {
     position: relative;
+    min-height: 426px;
 }
 
 .contact-us img {
     width: 100%;
+    min-height: 426px;
+
 }
 
 .contact-us .plane {
@@ -153,8 +156,15 @@
     top: 0;
 }
 
+
+
+
 .contact-us .layout {
     display: flex;
+}
+.contact-us > .layout {
+    width: 1128px;
+    margin: 0 calc((100vw - 1128px) / 2);
 }
 
 .contact-us .layout .left,
