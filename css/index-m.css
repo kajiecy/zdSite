@@ -1,0 +1,213 @@
+.m-banner{
+    position: relative;
+    margin-top: 58px;
+}
+.m-banner img{
+    width: 100%;
+}
+.m-banner .img-fix{
+    position: absolute;
+    top: 72px;
+    left: 16px;
+}
+.m-banner .img-fix .title{
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 32px; */
+    font-size: 8.5333vw;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.m-banner .img-fix .sec-title{
+    width: 56.8vw;
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 14px; */
+    font-size: 3.7333vw;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 36px;
+}
+
+
+.m-banner .img-fix .btns .btn-primary{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    padding: 4px 24px;
+    border-radius: 40px;
+    text-align: center;
+    
+    /* Text/white */
+    
+    color: #FFFFFF;
+}
+
+.mobile-style .title1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #323232;
+    margin: 48px auto 8px;
+}
+.mobile-style .desc1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.7333vw;
+    line-height: 22px;
+    text-align: center;
+    color: #5B5B5B;
+    margin-bottom: 40px;
+}
+.jieshao .item-card{
+    margin-bottom: 45px;
+}
+.jieshao .item-card .img{
+    width: 100%;
+    margin-bottom: 24px;
+}
+.jieshao .item-card .img img{
+    width: 100%;
+}
+.jieshao .item-card .name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2vw;
+    line-height: 18px;
+    color: #7ED5A8;
+    margin-bottom: 8px;
+}
+.jieshao .item-card .desc{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5.3vw;
+    line-height: 24px;
+    color: #323232;
+    margin-bottom: 24px;
+}
+.jieshao .item-card .content{
+font-family: 'Source Han Sans CN';
+font-style: normal;
+font-weight: 400;
+font-size: 3.7333vw;
+line-height: 22px;
+color: #5B5B5B;
+margin-bottom: 16px;
+}
+
+.jieshao .item-card .to-btn{
+    padding: 4px 16px;
+    gap: 4px;
+    height: 30px;
+    background: #1EBF6C;
+    border-radius: 24px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+}
+.mobile-style .statistic{
+    padding: 48px 16px;
+}
+.mobile-style .statistic .title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5.3vw;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-indent: 1.5px;
+    color: #323232;
+    margin-bottom: 16px;
+}
+.mobile-style .statistic .desc{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.2vw;
+    line-height: 18px;
+    text-align: center;
+    color: #5B5B5B;
+}
+.mobile-style .statistic .card-item{
+    width: 27.73vw;
+    padding: 8px 0 16px;
+    border-radius: 8px;
+}
+.mobile-style .statistic .number {
+    font-size: 5.3vw;
+    line-height: 30px;
+    height: 30px;
+}
+.mobile-style .statistic .small {
+    font-size: 3.7333vw;
+}
+.mobile-style .statistic .name {
+    margin-top: 8px;
+    font-size: 2.666vw;
+    line-height: 2.666vw;
+}
+.hezuo{
+    padding: 48px 0;
+}
+.hezuo .h-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #323232;
+    margin-bottom: 24px;
+}
+.hezuo img{
+    width: 100%;
+}
+
+.m-content{
+    padding: 0 16px;
+}
+
+.mobile-style .contect-us{
+    position: relative;
+}
+.mobile-style .contect-us img{
+    width: 100%;
+}
+.mobile-style .contect-us .input-plane{
+    position: absolute;
+    top: 48px;
+    left: 16px;
+    width: calc(100vw - 32px);
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 24px 16px ;
+}
+.mobile-style .contect-us .title{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.mobile-style .contect-us .desc{
+    font-size: 3.2vw;
+    margin-bottom: 16px;
+    line-height: 18px;
+}
+.mobile-style .contect-us .label{
+    font-size: 16px;
+}
+
+.mobile-style .contect-us .contect-submit{
+    padding: 8px 24px;
+    width: 100%;
+    height: 34px;
+    background: #1EBF6C;
+    border-radius: 16px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 8px;
+}
+

@@ -1,5 +1,5 @@
 $(function () {
-
+  
     // ------------------------------------------------------ //
     // For demo purposes, can be deleted
     // ------------------------------------------------------ //
@@ -28,15 +28,45 @@ $(function () {
     // });
 
 
+
+    const btn = document.getElementById("menu-open");
+    const mask = document.getElementById("menu-close");
+    const body = document.body;
+    let documentTop = 0; 
+    btn.addEventListener("click", e => {
+        mask.classList.remove("hide");
+        documentTop = document.scrollingElement.scrollTop;
+        body.style.position = "fixed"
+        body.style.top = -documentTop + "px";
+    })
+    mask.addEventListener("click", e => {
+        mask.classList.add("hide");
+        body.style.position = "static";
+        body.style.top = "auto";
+        document.scrollingElement.scrollTop = documentTop;
+    })
+
+
+
+    $('.m-footer .list-item').on('click', function (e) {
+      console.log('aaaaaaaaaaaa',e.target.className)
+      if(e.target.className.includes('open')){
+        e.target.className = e.target.className.replace('open','')
+      }else{
+        e.target.className = `${e.target.className} open`
+      }
+  });
+
+
     // =====================================================
     //      NAVBAR
     // =====================================================
     var c, currentScrollTop = 0;
     $(window).on('scroll load', function () {
         if ($(window).scrollTop() >= 10) {
-            $('.header.header').addClass('active');
+            $('header.header').addClass('active');
         } else {
-            $('.header.header').removeClass('active');
+            $('header.header').removeClass('active');
         }
         // Navbar functionality
         var a = $(window).scrollTop(), b = $('.header.header').height();
@@ -78,8 +108,6 @@ $(function () {
 
 
 function handleContact() {
-    console.log('email=====>')
-
     let name = $('#name').val();
     let company = $('#company').val();
     let phone = $('#phone').val();
@@ -147,3 +175,13 @@ function showModal(){
 function hiddenModal(){
     $('#apply-modal').addClass("hidden");
 }
+
+function mobileOpenMenu() {
+  // console.log();
+  if($('.head-menus').attr('class').includes('open')){
+    $('.head-menus').removeClass("open");
+  }else{
+    $('.head-menus').addClass("open");
+  }
+}
+

@@ -2,6 +2,23 @@
   /* color: #5B5B5B; */
 }
 
+.pc-style{
+  display: block;    
+}
+.mobile-style{
+  display: none ;
+}
+
+
+@media screen and (max-width: 480px) {
+  .pc-style{
+    display: none;
+  }
+  .mobile-style{
+    display: block;
+  }
+}
+
 /*********测试用*********/
 [v-cloak] {
     display: none;
