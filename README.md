@@ -12,4 +12,4 @@
     font-size: 5.3vw;
 
     /* font-size: 32px; */
-    font-size: 8.5333vw;
+    font-size: 8.5333vw; 

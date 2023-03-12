@@ -33,13 +33,13 @@ $(function () {
     const mask = document.getElementById("menu-close");
     const body = document.body;
     let documentTop = 0; 
-    btn.addEventListener("click", e => {
+    btn?.addEventListener("click", e => {
         mask.classList.remove("hide");
         documentTop = document.scrollingElement.scrollTop;
         body.style.position = "fixed"
         body.style.top = -documentTop + "px";
     })
-    mask.addEventListener("click", e => {
+    mask?.addEventListener("click", e => {
         mask.classList.add("hide");
         body.style.position = "static";
         body.style.top = "auto";
@@ -63,6 +63,9 @@ $(function () {
     // =====================================================
     var c, currentScrollTop = 0;
     $(window).on('scroll load', function () {
+
+        console.log(`scroll load------->`,)
+
         if ($(window).scrollTop() >= 10) {
             $('header.header').addClass('active');
         } else {
@@ -108,9 +111,9 @@ $(function () {
 
 
 function handleContact() {
-    let name = $('#name').val();
-    let company = $('#company').val();
-    let phone = $('#phone').val();
+    let name = $('#name').val()||$('#name-m').val();
+    let company = $('#company').val()||$('#company-m').val();
+    let phone = $('#phone').val()||$('#phone-m').val();
     if (!name) {
         alert("姓名不能为空");
         return;
@@ -173,6 +176,7 @@ function showModal(){
     $('#apply-modal').removeClass("hidden");
 }
 function hiddenModal(){
+  console.log(`hiddenModal`)
     $('#apply-modal').addClass("hidden");
 }
 

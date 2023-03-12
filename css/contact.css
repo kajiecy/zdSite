@@ -3,13 +3,14 @@
     margin-top: 72px;
 }
 
-.first-block img{
+.first-block img {
     width: 100%;
     min-height: 674px;
 }
-.first-block .first-plane{
+
+.first-block .first-plane {
     position: absolute;
-    top:  0px;
+    top: 0px;
     width: 1128px;
     height: 100%;
     margin: 0 calc((100vw - 1128px) /2);
@@ -18,7 +19,8 @@
     /* justify-content: center; */
     padding: 190px;
 }
-.first-block .first-plane .title{
+
+.first-block .first-plane .title {
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -26,7 +28,8 @@
     color: #FFFFFF;
     margin-bottom: 40px;
 }
-.first-block .first-plane .desc{
+
+.first-block .first-plane .desc {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -34,12 +37,13 @@
     color: #FFFFFF;
 }
 
-.contact-form{
+.contact-form {
     height: 268px;
     background-color: #FAFAFC;
     position: relative;
 }
-.contact-form .contact-card{
+
+.contact-form .contact-card {
     width: 1128px;
     height: 415px;
     background: #FFFFFF;
@@ -52,24 +56,29 @@
     justify-content: space-between;
 }
 
-.contact-form .contact-card .left{
+.contact-form .contact-card .left {
     width: 263px;
     height: 200px;
 }
-.contact-form .contact-card .right{
+
+.contact-form .contact-card .right {
     width: 552px;
     height: 239px;
 }
-.contact-form .contact-card .layout{
+
+.contact-form .contact-card .layout {
     display: flex;
     justify-content: space-between;
     margin-bottom: 24px;
 }
-.contact-form .layout .layout-left,.contact-form .layout .layout-right {
+
+.contact-form .layout .layout-left,
+.contact-form .layout .layout-right {
     width: 264px;
 
 }
-.contact-form .contact-card .right .label {
+
+.right .label {
     display: inline-block;
     font-weight: 700;
     font-size: 16px;
@@ -77,13 +86,14 @@
     color: #1EBF6C;
     margin-bottom: 8px;
 }
-.contact-form .contact-card .right .label::before {
+
+.right .label::before {
     content: '*';
     display: inline-block;
     color: #D4380D;
 }
 
-.contact-form .contact-card .right .contect-submit {
+.right .contect-submit {
     width: 310px;
     border-radius: 16px;
     padding: 8px 16px;
@@ -91,7 +101,8 @@
     line-height: 24px;
     margin-top: 40px;
 }
-.contact-card .left .title{
+
+.contact-card .left .title {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -99,7 +110,8 @@
     color: #969696;
     margin-bottom: 6px;
 }
-.contact-card .left .detail{
+
+.contact-card .left .detail {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -108,3 +120,52 @@
     margin-bottom: 16px;
 }
 
+.first-block-m {
+    margin-top: 60px;
+    position: relative;
+}
+
+.first-block-m img {
+    width: 100%;
+}
+
+.first-block-m .text-desc {
+    position: absolute;
+    width: 100%;
+    top: 128px;
+    padding: 0 32px;
+}
+
+.first-block-m .text-desc .desc-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.first-block-m .text-desc .desc-desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.m-right {
+    width: calc(100% - 32px);
+    margin: 0 16px;
+    background: #F7F7F7;
+    padding: 40px 16px;
+    border-radius: 24px;
+    position: relative;
+    top: -180px;
+    margin-bottom: -144px;
+}
+.m-right .input-item{
+    margin-bottom: 16px;
+}
+.m-right .contect-submit{
+    margin-top: 16px;
+}
