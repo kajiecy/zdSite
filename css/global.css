@@ -235,42 +235,33 @@
 
 
 .details-modal .details-modal-content {
-    padding: 180px 60px;
+    padding: 120px 60px 48px;
     pointer-events: all;
     overflow: auto;
     position: relative;
     width: 720px;
 }
 
-.details-modal .details-modal-content .layout-1 {
-    display: flex;
+
+.modal-pc-layout{
+    position: relative;
+}
+.modal-pc-layout .bg{
+    width: 100%;
 }
 
-.details-modal .desc {
-    flex: 0 0 375px;
-    align-items: center;
-    padding-left: 32px;
-
-    padding-top: 30px;
+.modal-pc-layout .number{
+    width: 622px;
+    position: absolute;
+    top: 44px;
+    left: 13px;
 }
 
-.details-modal .text1 {
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 60px;
-    margin-bottom: 40px;
-    color: #162F4B;
-}
-
-.details-modal .text2 {
-    flex: 0 0 375px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 27px;
-    line-height: 48px;
-
-    color: #162F4B;
-
+.modal-pc-layout .code{
+    width: 110px;
+    position: absolute;
+    top: 0;
+    right: 10px;
 }
 
 .details-modal-overlay {
@@ -311,14 +302,27 @@
         padding-top: 30px;
         text-align: center;
     }
-    .details-modal .text1 {
-        font-size: 53px;
-        line-height: 15px;
+    .m-modal-content .qrcode{
+        margin-top: 56px;
     }
-    .details-modal .text2 {
-        font-size: 18px;
-        line-height: 31px;
+    .m-modal-content .imgs{
+        position: relative;
+        text-align: center;
+        margin-bottom: 44px;
     }
+    .m-modal-content .mgb{
+        width: 100%;
+    }
+    .m-modal-content .mgn{
+        width: 207px;
+        position: absolute;
+        top: 0;
+        left: 22%;
+    }
+    .m-modal-content .entext{
+        margin-bottom: 16px;
+    }
+
     .details-modal .entext {
         margin-top: 20px;
         font-weight: 400;
@@ -332,7 +336,7 @@
 
 .layout-2 {
     display: flex;
-    margin-top: 62px;
+    margin-top: 152px;
 }
 
 .layout-2 .logo {
@@ -497,6 +501,9 @@ header .logo img {
 .mobile-style .contect-us{
     position: relative;
 }
+.mobile-style .contect-us .input-item{
+    margin-bottom: 10px;
+}
 .mobile-style .contect-us img{
     width: 100%;
 }
@@ -510,8 +517,9 @@ header .logo img {
     padding: 24px 16px ;
 }
 .mobile-style .contect-us .title{
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 16px;
+    text-align: center;
 }
 .mobile-style .contect-us .desc{
     font-size: 3.2vw;
@@ -520,6 +528,7 @@ header .logo img {
 }
 .mobile-style .contect-us .label{
     font-size: 16px;
+    margin-bottom: 5px;
 }
 
 .mobile-style .contect-us .contect-submit{

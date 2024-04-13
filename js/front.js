@@ -63,7 +63,6 @@ $(function () {
     // =====================================================
     var c, currentScrollTop = 0;
     $(window).on('scroll load', function () {
-
         console.log(`scroll load------->`,)
 
         if ($(window).scrollTop() >= 10) {

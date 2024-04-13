@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
-    padding: 190px;
+    padding: 7vw 190px 0;
 }
 
 .first-block .first-plane .title {
@@ -38,7 +38,7 @@
 }
 
 .contact-form {
-    height: 268px;
+    /* height: 268px; */
     background-color: #FAFAFC;
     position: relative;
 }
@@ -49,7 +49,7 @@
     background: #FFFFFF;
     border-radius: 16px;
     position: absolute;
-    top: -243px;
+    top: -28vw;
     margin: 0 calc((100vw - 1128px) /2);
     display: flex;
     padding: 88px 100px;
